@@ -1,0 +1,31 @@
+#buttonCnt{
+    text-align: center;
+}
+
+
+
+.button{
+    background-color: aquamarine;
+    border-radius: 20px;
+    width: 200px;
+    font-size: 2em;
+    animation-name : RGB;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+}
+#CountLabel{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: Verdana;
+}
+@keyframes RGB {
+    0% { background-color: red; }
+    16% { background-color: yellow; }
+    33% { background-color: lime; } 
+    50% { background-color: cyan; } 
+    66% { background-color: blue; }
+    83% { background-color: magenta; } 
+    100% { background-color: red; }
+  }
