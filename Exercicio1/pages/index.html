@@ -1,19 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
     <head>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="../styles/style.css">
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Exercicio1</title>
+        <meta name="author" content="Kayk">
+        <meta name="description" content="Site que criei para aprender!">
+        <script src="https://kit.fontawesome.com/f46975233c.js" crossorigin="anonymous"></script>
+        <title>Site maneiro do Kayk</title>
     </head>
     <body>
-    <fieldset>
-        <h1>Exercicio 1</h1>
-    </fieldset>
-    <div>
+        <header>
+            <div class="header-inner">
+                <h1 class="title">Meu site</h1>
+
+                <nav>
+                    <ul class="nav-lista">
+                        <li><a href="#Redes"><i class="fa-brands fa-instagram"></i>Redes Sociais</a></li>
+                        <li><a href="#Images"><i class="fa-solid fa-image"></i>Imagens</a></li>
+                        <li><a href="#Forms"><i class="fa-brands fa-wpforms"></i>Formulario</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+        </header>
+
+
+    <main class="container">
+        <div>
         <h1>Texto:</h1>
         <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur mollitia itaque obcaecati tenetur nemo perferendis repudiandae odio suscipit ipsum! Dolore vero at minima a excepturi corrupti ratione vel quod perferendis.</h3>
-    </div>
+        </div>
     <div>
         <h1>Links:</h1>
         <a href="https://g1.globo.com">Globo</a>
@@ -43,6 +60,17 @@
         <li>CSS</li>
         <li>JS</li>
         </ol>
+
+        <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação usada para estruturar páginas web.</dd>
+
+        <dt>CSS</dt>
+        <dd>Usado para estilizar elementos HTML.</dd>
+
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para interatividade em páginas web.</dd>
+        </dl>
     </div>
     <br>
     <div>
@@ -91,7 +119,7 @@
 
     </div>
     <div>
-        <h1>Formulario</h1>
+        <h1 id="Forms">Formulario</h1>
 
         <form action="#" method="post">
     <fieldset>
@@ -149,7 +177,7 @@
 
     </div>
 
-        <h1>Galeria de Imagens</h1>
+        <h1 id="Images">Galeria de Imagens</h1>
     <fieldset>
         <img src="images/V.jpg" width="200" height="100">
         <img src="images/A.jpg" width="200" height="100">
@@ -159,9 +187,10 @@
     </fieldset>
 
     <div>
-
+    
+    <footer>
     <section>
-    <h1>Redes Sociais</h1>
+    <h1 id="Redes">Redes Sociais</h1>
 
     <a href="https://www.facebook.com" target="_blank">
         <img src="images/facebook.png" alt="Facebook" width="50" height="50">
@@ -179,5 +208,7 @@
         <img src="images/linkeding.png" alt="LinkedIn" width="50" height="50">
     </a>
     </section>
-    </body>
+    </main>
+    </footer>
+</body>
 </html>

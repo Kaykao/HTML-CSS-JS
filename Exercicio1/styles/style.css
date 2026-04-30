@@ -1,5 +1,12 @@
-body {
-    background-color: #7fb4fa; 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:box;
+}
+
+
+.container {
+    background-color: #038c96; 
     color: #000000; 
     font-family: Arial, sans-serif;
     margin: 0;
@@ -37,7 +44,6 @@ table {
     text-align: center;
     border-color: #000000;
 }
-
 
 form {
     max-width: 600px;
@@ -81,4 +87,39 @@ img{
     border-radius: 30%;
     border: 3px solid #000000;
     
+}
+
+.title{
+    color: white;
+}
+
+.header-inner {
+    display: flex;
+    padding: 1rem 1.5rem;
+    align-items: center;
+    padding: 15px 30px;
+    max-width: 100%;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+header{
+    background-color: blue;
+    font-family: sans-serif;
+}
+
+.nav-lista{
+    display: flex;
+    list-style: none;
+    margin: auto;
+}
+
+.nav-lista a{
+    color: white;
+    gap: 1rem;
+    font-size: 0.8rem;
+}
+
+.nav-lista a:hover{
+    text-decoration-line: underline;
 }
